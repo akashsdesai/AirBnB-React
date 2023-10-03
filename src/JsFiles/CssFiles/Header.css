@@ -1,0 +1,38 @@
+header{
+  
+}
+
+nav{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  padding: 10px;
+  position:fixed;
+  top:0px;
+  
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+#photoGrid{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  
+}
+
+#info{
+  margin-left: 30px;
+}
+
+#info h1{
+  margin-bottom: 12px;
+}
+#info p{
+  width:300px;
+  margin-bottom: 15px;
+}
+
+#photo{
+  width: 80%;
+}
+
